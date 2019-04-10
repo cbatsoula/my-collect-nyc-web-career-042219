@@ -5,5 +5,6 @@ def my_collect(array)
       nuarray << yield(array[i])
       i += 1 
     end 
-    
+    nuarray
+end
 
